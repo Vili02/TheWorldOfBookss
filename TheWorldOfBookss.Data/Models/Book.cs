@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace TheWorldOfBookss.Data.Models
 {
-    public class Book
+    public class Book : BaseModel
     {
         [Required]
         public string Title { get; set; }
